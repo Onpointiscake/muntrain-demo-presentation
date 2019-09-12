@@ -1,0 +1,55 @@
+.border-green {
+  display: flex;
+  font-family: "Roboto", sans-serif;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background: #ffffff;
+  height: 6vw;
+  padding: 4px 0px;
+  border-top: 2px solid #43af79;
+}
+.no-border-green {
+  display: flex;
+  font-family: "Roboto", sans-serif;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background: #ffffff;
+  height: 6vw;
+  padding: 4px 0px;
+}
+
+.start-game-container {
+  display: flex;
+  flex-direction: row;
+  letter-spacing: 2px;
+  font-size: 0.9em;
+  font-weight: bold;
+}
+.start-game-container p {
+  position: relative;
+  top: 6px;
+}
+.start-game-container button {
+  background: #f5853b;
+  padding: 20px 25px;
+  border-radius: 4px;
+  border: none;
+  box-shadow: none;
+  margin-left: 20px;
+  font-size: 1.2em;
+  font-weight: bold;
+  cursor: pointer;
+}
+.start-game-container button:hover {
+  background: #fa9b5b;
+}
+.atajos-p {
+  font-size: 1em;
+  font-weight: bold;
+}
+a {
+  text-decoration: none;
+  color: #454ade;
+}
