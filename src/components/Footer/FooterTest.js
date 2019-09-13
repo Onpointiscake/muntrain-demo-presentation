@@ -1,5 +1,5 @@
 import React from "react";
-import { TextInput, Button, toaster } from "evergreen-ui";
+import { TextInput, Button, Icon } from "evergreen-ui";
 import "./Footer.css"
 
 class FooterTest extends React.Component {
@@ -9,10 +9,11 @@ class FooterTest extends React.Component {
         <div className="border-green">
           <div className="start-game-containers">
             <React.Fragment>
-              {" "}
-              <Button marginRight={12} iconBefore="arrow-left">
-                Atrás
-              </Button>
+              
+          
+            <Button appearance="minimal" height={60} intent="warning" marginLeft={16} marginRight={20} intent="warning" onClick={() => this.props.handleStateUp(false)}  ><Icon icon="compass" color="warning" marginRight={16} /></Button>
+         
+             
               <TextInput
                 width={380}
                 height={60}

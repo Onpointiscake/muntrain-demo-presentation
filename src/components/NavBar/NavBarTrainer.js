@@ -5,7 +5,7 @@ import "./NavBar.css";
 
 import { Button, Avatar } from "evergreen-ui";
 
-function NavBar() {
+function NavBarTrainer() {
   return (
     <div>
       <nav>
@@ -17,11 +17,11 @@ function NavBar() {
             </Link>
           </div>
           <div class="tiempo-container">
-          <h4>Perfil Usuario</h4>
+          <h4>Perfil Entrenador</h4>
           <Avatar marginLeft={12}
           cursor="pointer"
            marginRight={12}
-            src="https://upload.wikimedia.org/wikipedia/commons/a/a1/Alan_Turing_Aged_16.jpg"
+            src="https://content-static.upwork.com/uploads/2014/10/02123010/profilephoto_goodcrop.jpg"
             name="Alan Turing"
             size={40}
             />
@@ -33,4 +33,4 @@ function NavBar() {
   );
 }
 
-export default NavBar;
+export default NavBarTrainer;

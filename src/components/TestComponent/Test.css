@@ -5,6 +5,11 @@
     align-items: center;
     justify-content: center;
   }
+  .half{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
   .main-containerTest{
     background: #FFFFFF;
     display: flex;
